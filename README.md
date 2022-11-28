@@ -65,5 +65,3 @@ Airidas: [Github](https://github.com/airidasju)
          [LinkedIn](https://www.linkedin.com/in/airidas-ju%C5%A1ka-549141235/)
 
 ## 🔗 Other resources
-
-https://dribbble.com/shots/4986524-A-Happy-Weekend/attachments/1115040?mode=media
