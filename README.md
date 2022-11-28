@@ -9,7 +9,7 @@ _website design project_
 
 Site published at: [Coming Soon](https://airidasju.github.io/04-coming-soon/)
 
-Design: [Coming Soon](https://cdn.discordapp.com/attachments/850245533838868480/850246473362178048/coming-soon-wide.png)
+Design: [Coming Soon Design](https://cdn.discordapp.com/attachments/850245533838868480/850246473362178048/coming-soon-wide.png)
 
 ## 🎯 Project features/goals
 
