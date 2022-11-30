@@ -86,4 +86,7 @@ footer.container {
   .main-title {
     font-size: 60px;
   }
+  .row.socials{
+    gap: 0px;
+  }
 }
