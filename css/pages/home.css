@@ -28,11 +28,11 @@ height: 30px;
 }
 
 .section-title {
-
+font-size: 18px;
 }
 
 .section-description {
-
+font-size: 16px;
 }
 
 .section-description > a {
@@ -46,6 +46,36 @@ height: 30px;
 
 .section-description > a:hover {
     text-decoration: underline;
+}
+
+footer > .container {
+    padding-top: 0;
+}
+
+.row.socials {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 2em;
+    justify-content: center;
+    gap: 1em;
+    border-bottom: 1px solid #fff;
+}
+
+.socials > a {
+    text-decoration: none;
+    width: 2.5em;
+    height: 2.5em;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2.5em;
+    color:#fff;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+.socials > a:hover {
+    background-color: #fff;
+    color: var(--main-color);
 }
 
 @media (max-width: 700px) {
