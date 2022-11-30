@@ -1,0 +1,34 @@
+.container > .hero {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+text-align: center;
+
+}
+
+.logo {
+height: 30px;
+}
+
+.main-title {
+
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+.main-description {
+    font-size: 22px;
+
+}
+
+.clock {
+    width:80%;
+    background-color: pink;
+}
+
+@media (max-width: 700px) {
+    .main-title {
+        font-size: 50px;
+    }
+}
