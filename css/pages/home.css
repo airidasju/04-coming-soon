@@ -1,55 +1,89 @@
 .container > .hero {
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 30px;
-text-align: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
 }
 
 .logo {
-height: 30px;
+  height: 30px;
 }
 
 .main-title {
-
-    text-transform: uppercase;
-    font-size: 70px;
+  font-size: 65px;
+  text-transform: uppercase;
 }
 
 .main-description {
-    font-size: 22px;
-
-}
-
-.clock {
-    width:80%;
-    background-color: pink;
+  font-size: 22px;
 }
 
 .section-title {
-
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 .section-description {
-
+  font-size: 16px;
 }
-
 .section-description > a {
-    font-size: 16px;
+  text-decoration: none;
+  color: var(--secondary-color);
 }
-
-.section-description > a {
-    text-decoration: none;
-    color:red
-}
-
 .section-description > a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+footer.container {
+  padding-top: 0;
+}
+
+.row.socials {
+  justify-content: center;
+  gap: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 2em;
+  font-size: 20px;
+  border-bottom: 1px solid #fff;
+}
+.socials > a {
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.socials > a:hover {
+  background-color: #fff;
+  color: var(--main-color);
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* color: rgba(255, 255, 255, 0.75); */
+  color: #fffc;
+}
+.bottom > .logo {
+  margin-bottom: 40px;
+}
+.bottom > .trio {
+  display: flex;
+  gap: 20px;
+}
+.bottom a {
+  color: #fff;
 }
 
 @media (max-width: 700px) {
-    .main-title {
-        font-size: 50px;
-    }
+  .main-title {
+    font-size: 60px;
+  }
 }
