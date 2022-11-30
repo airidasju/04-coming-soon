@@ -27,6 +27,27 @@ height: 30px;
     background-color: pink;
 }
 
+.section-title {
+
+}
+
+.section-description {
+
+}
+
+.section-description > a {
+    font-size: 16px;
+}
+
+.section-description > a {
+    text-decoration: none;
+    color:red
+}
+
+.section-description > a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 700px) {
     .main-title {
         font-size: 50px;
