@@ -24,15 +24,3 @@
     height: 100%;
     background-color: var(--main-color);
 }
-.progress-bar-list .progress > .bar-1 {
-    width: 90%;
-}
-.progress-bar-list .progress > .bar-2 {
-    width: 80%;
-}
-.progress-bar-list .progress > .bar-3 {
-    width: 50%;
-}
-.progress-bar-list .progress > .bar-4 {
-    width: 10%;
-}
