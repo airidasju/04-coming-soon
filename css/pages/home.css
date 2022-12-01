@@ -78,6 +78,22 @@ footer.container {
   display: flex;
   gap: 20px;
 }
+
+.bottom > .trio > p {
+  position: relative;
+}
+
+.bottom > .trio > p + p::before {
+  content: "";
+  width: 1px;
+  height: 20px;
+  display: inline-block;
+  background-color: #fff;
+  position: absolute;
+  left: -9.5px;
+}
+
+
 .bottom a {
   color: #fff;
 }
