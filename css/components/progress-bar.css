@@ -12,24 +12,28 @@
     display: flex;
     justify-content: space-between;
 }
-
+.progress-bar-list .top > .label {
+}
+.progress-bar-list .top > .value {
+}
 .progress-bar-list > .progress-bar > .progress {
     height: 6px;
     background-color: #ccc;
 }
 .progress-bar-list .progress > .bar {
+    --w: 90%;
     height: 100%;
+    width: var(--w);
     background-color: var(--main-color);
+    animation-duration: 2s;
     animation-name: loading;
-    animation-duration: 1s;
-    height: 90%;
 }
 
 @keyframes loading {
     0% {
-        width: 0
+        width: 0;
     }
     100% {
-        width: var(--w)
+        width: var(--w);
     }
 }
